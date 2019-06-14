@@ -4,7 +4,8 @@
   "description": "Events Lab",
   "main": "server.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "lint": "eslint"
   },
   "author": "",
   "license": "MIT",
