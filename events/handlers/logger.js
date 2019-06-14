@@ -10,7 +10,7 @@ client.connect(LOGGER_PORT, LOGGER_HOST, initializeLogger);
 
 function initializeLogger() {
   eventHub.on('read', log('read'));
-  eventHub.on('upper', log('upper'));
+  // eventHub.on('upper', log('upper'));
   eventHub.on('save', log('save'));
   function log(eventType) {
     return (payload) => {

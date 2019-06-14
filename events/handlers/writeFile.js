@@ -6,7 +6,7 @@ const eventHub = require('../hub');
 async function writeFile(data) {
   console.log('WRITING FILE');
   await writeFileAsync(data.file, Buffer.from(data.content));
-  eventHub.emit('log', `${data.file} was updated!`);
+  // eventHub.emit('log', `${data.file} was updated!`);
 }
 
 eventHub.on('save', writeFile);
