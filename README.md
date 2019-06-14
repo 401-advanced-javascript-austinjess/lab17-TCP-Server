@@ -6,16 +6,15 @@
 
 ### Links and Resources
 
-- [submission PR]()
-- [travis](https://travis-ci.com/401-advanced-javascript-austinjess/lab14-access-control/builds/115150717)
+- [submission PR](https://github.com/401-advanced-javascript-austinjess/lab17-TCP-Server/pull/1)
+- [travis](https://travis-ci.com/401-advanced-javascript-austinjess/lab17-TCP-Server)
 
 ### Setup
 
 #### `.env` requirements
 
-- `PORT` - 3000
-- `MONGODB_URI` - mongodb://localhost/access-control
+- `PORT` - 3001
 
 #### Running the app
 
-- `npm start`
+- `node app.js [file-name.ext]`
